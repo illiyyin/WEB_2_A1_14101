@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('customer');
 });
+
+Route::resource('customer','Raihan_controller_14101');
